@@ -1,0 +1,24 @@
+
+body {
+    align-items: center;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    color: #44f;
+    text-decoration: none;
+}
+
+.nav {
+    color: #44f;
+    font-size: 32px;
+}
+
+.title {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
