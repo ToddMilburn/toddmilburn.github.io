@@ -1,9 +1,10 @@
 
 body {
     align-items: center;
-    background-color: #eee;
+    background-color: #bce;
     display: flex;
     flex-direction: column;
+    font-family: Arial, sans-serif;
 }
 
 .link {
@@ -17,9 +18,20 @@ body {
 }
 
 .title {
-    color: #333;
-    font-family: Arial, sans-serif;
+    color: #336;
     font-size: 80px;
     font-weight: bold;
-    font-variant: small-caps;
+    transform: scaleX(2.5);
+}
+
+.firstLetter {
+    display: inline-block;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.rest {
+    display: inline-block;
+    letter-spacing: -7px;
+    transform: translateX(-30px);
 }
